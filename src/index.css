@@ -1,0 +1,13 @@
+/* src/index.css */
+
+body {
+    background: linear-gradient(to bottom, #90caf9, #ffffff);
+    background-repeat: no-repeat;
+
+    /* Match your login page gradient */
+}
+
+.container {
+    background: linear-gradient(to bottom, #90caf9, #ffffff);
+    /* Optional: container gradient */
+}

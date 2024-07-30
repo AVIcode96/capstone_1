@@ -1,0 +1,19 @@
+/* src/pages/Home.css */
+
+.home-background {
+    background: linear-gradient(to bottom, #90caf9, #ffffff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.funky-font {
+    font-family: 'Permanent Marker', cursive;
+    color: #ffffff;
+}
