@@ -15,7 +15,7 @@ export const AuthProvider = ({ children }) => {
             if (user) {
                 setUser(user);
                 try {
-                    const response = await axios.get(`https://ccf06c66-0aa3-4566-95c1-d05bf3374568-00-3p0mstsniszcg.riker.replit.dev/students/${user.uid}`);
+                    const response = await axios.get(`https://26dcb711-8128-4562-903e-5e90ce17012c-00-2oc5jhzdfapax.pike.replit.dev/students/${user.uid}`);
                     setProfileData(response.data);
                 } catch (error) {
                     console.error('Error fetching profile data:', error);

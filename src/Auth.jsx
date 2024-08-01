@@ -6,7 +6,7 @@ import { Form, Button, Card } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const BASE_URL = 'https://ccf06c66-0aa3-4566-95c1-d05bf3374568-00-3p0mstsniszcg.riker.replit.dev';
+const BASE_URL = 'https://26dcb711-8128-4562-903e-5e90ce17012c-00-2oc5jhzdfapax.pike.replit.dev';
 
 const Auth = () => {
     const [isRegister, setIsRegister] = useState(false);
